@@ -23,7 +23,8 @@ mkdir -p ~/Library/LaunchAgents
 curl -L https://raw.github.com/jak/bbc-stunnel/master/org.stunnel.plist | sed -e "s|USERNAME|$USER|g" > ~/Library/LaunchAgents/org.stunnel.plist
 
 echo "Copy stunnel binary"
-cp stunnel ~/.stunnel/bin/
+curl -L https://raw.github.com/jak/bbc-stunnel/master/stunnel -o ~/.stunnel/bin/stunnel
+chmod +x ~/.stunnel/bin/stunnel
 
 echo "Starting up stunnel via launchd"
 launchctl load ~/Library/LaunchAgents/org.stunnel.plist
