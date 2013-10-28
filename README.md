@@ -8,5 +8,5 @@ and you private key and certificate as a PEM file.
 
 To get stunnel, run
 
-    curl -L https://raw.github.com/jak/bbc-stunnel/master/install-stunnel.sh | sh
+    bash <(curl -s https://raw.github.com/jak/bbc-stunnel/master/install-stunnel.sh)
 
