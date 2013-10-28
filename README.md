@@ -4,7 +4,7 @@ bbc-stunnel
 Easily setting up stunnel on BBC MacBooks.
 
 Ensure your proxies are set up if needed (export https_proxy...), and you need both the certificate authority PEM file
-and you private key and certificate as a PEM file.
+and your private key and certificate as a PEM file.
 
 To get stunnel, run
 
