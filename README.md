@@ -29,3 +29,12 @@ Or manually...
 1. launchctl unload ~/Library/LaunchAgents/org.stunnel.plist
 2. rm -rf ~/.stunnel
 3. rm ~/Library/LaunchAgents/org.stunnel.plist
+
+
+License
+-------
+
+stunnel is covered by the GPLv2, which is available in LICENSE.
+stunnel's full source is [available here](https://www.stunnel.org/downloads.html).
+
+The installation scripts and configurations are released into the public domain.
