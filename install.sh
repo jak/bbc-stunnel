@@ -1,14 +1,15 @@
 #!/bin/bash
 echo "Home: $HOME"
 echo "User: $USER"
+echo ""
 echo "Hint: You can drag the files into Terminal to provide the filename."
-echo "Where's your ca.pem? (~/Documents/Certificates/ca.pem)"
+echo "Whats the full path to your ca.pem? (/Users/you/Documents/Certificates/ca.pem)"
 read CA_PATH
 if [[ -z "$CA_PATH" ]]; then
   CA_PATH="$HOME/Documents/Certificates/ca.pem"
 fi
 
-echo "Where's your dev.bbc.co.uk.pem? (~/Documents/Certificates/dev.bbc.co.uk.pem)"
+echo "Whats the full path to your password-less dev.bbc.co.uk.pem? (/Users/you/Documents/Certificates/dev.bbc.co.uk.pem)"
 read CERT_PATH
 if [[ -z "$CERT_PATH" ]]; then
   CERT_PATH="$HOME/Documents/Certificates/dev.bbc.co.uk.pem"

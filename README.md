@@ -11,7 +11,7 @@ This makes it simple.
 Installation
 ------------
 Ensure your proxies are set up if needed (export https_proxy...), and you need both the certificate authority PEM file
-and your private key and certificate as a PEM file.
+and your private key and certificate as a password-less PEM file.
 
 To get stunnel, run
 
