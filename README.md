@@ -15,7 +15,7 @@ and your private key and certificate as a [password-less PEM file](https://gist.
 
 To get stunnel, run
 
-    bash <(curl -s https://raw.github.com/jak/bbc-stunnel/master/install.sh)
+    bash <(curl -s https://raw.githubusercontent.com/jak/bbc-stunnel/master/install.sh)
     
 Once you're up, you can using something like [Colloquy](http://colloquy.info/), [Adium](https://adium.im/) or 
 [Linkinus](https://itunes.apple.com/gb/app/linkinus/id402390998?mt=12) to connect to `localhost` and port `6667` on 
@@ -27,7 +27,7 @@ Removal
 
 To remove stunnel, run
 
-    bash <(curl -s https://raw.github.com/jak/bbc-stunnel/master/uninstall.sh)
+    bash <(curl -s https://raw.githubusercontent.com/jak/bbc-stunnel/master/uninstall.sh)
 
 Or manually...
 
